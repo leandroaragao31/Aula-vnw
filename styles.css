@@ -124,14 +124,20 @@ main{
 
 .box:hover::before{
     content: 'Have coffe here';
-    position: absolute;
     font-weight: 700;
     font-size:2vw;
     color:#57625c;
     background-color:azure;
     cursor:pointer;
 }
-
+.box:hover::after{
+    content: '(João) Quero um café';
+    font-weight: 700;
+    font-size:2vw;
+    color:#57625c;
+    background-color:azure;
+    cursor:pointer;
+}
 
 /* .mask1:hover {
     max-width: 600px;
