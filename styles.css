@@ -123,7 +123,7 @@ main{
 
 
 .box:hover::before{
-    content: 'Have coffe here';
+    content: 'Weak coffe';
     position: absolute;
     font-weight: 700;
     font-size:2vw;
